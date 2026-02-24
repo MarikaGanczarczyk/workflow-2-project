@@ -3,32 +3,31 @@ body {
   font-family: Arial;
 }
 
-
 .site-header {
   display: flex;
   align-items: center;
   padding: 10px 16px;
-  padding-left: 60px;   
-  background: white;
+  padding-left: 60px;
+  background: rgb(197, 227, 236);
   border-bottom: 1px solid white;
-  gap: 16px;           
+  gap: 16px;
 }
 
 .left-nav {
   display: flex;
   align-items: center;
   gap: 20px;
- 
 }
 
 .right-nav {
-  margin-left: auto;     
+  margin-left: auto;
   display: flex;
   align-items: center;
   padding: 8px 30px;
 }
 
 .left-nav a {
+  font-size: 14px;
   text-decoration: none;
   color: #111;
   padding: 6px 8px;
@@ -46,5 +45,35 @@ body {
 .user-icon {
   width: 26px;
   height: 26px;
-  fill: blue;     
+  fill: blue;
+}
+.search-section {
+  margin: 30px auto;
+  padding-left: 20px;
+  padding-bottom: 150px;
+  background-color: transparent;
+
+  border-radius: none;
+
+  text-align: center;
+  display: block;
+}
+.search-title{
+  font-size: 20px;
+}
+.explore-section{
+  margin: 30px auto;
+ 
+  padding-left: 20px;
+  padding-bottom: 70px;
+  background-color: transparent;
+
+  border-radius: none;
+
+  text-align: center;
+  display: block;
+   
+}
+.explore-title{
+   font-size: 20px;
 }
